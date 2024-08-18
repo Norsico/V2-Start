@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mcmod",
+	"version": "${version}",
+	"name": "MC mod",
+	"description": "模组描述",
+	"authors": [
+		"Norcoo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mcmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.norcoo.mcmod.MCmod"
+		],
+		"client": [
+			"com.norcoo.mcmod.McModClient"
+		],
+		"fabric-datagen": [
+			"com.norcoo.mcmod.MCmodDataGenerator"
+		]
+	},
+	"mixins": [
+		"mcmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

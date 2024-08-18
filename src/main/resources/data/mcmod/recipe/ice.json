@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "mcmod:ice",
+    "count": 1
+  }
+}

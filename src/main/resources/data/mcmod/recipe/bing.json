@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "RST",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "mcmod:tc2"
+    },
+    "R": {
+      "item": "mcmod:t"
+    },
+    "S": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "T": {
+      "item": "minecraft:cat_spawn_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:ice",
+    "count": 64
+  }
+}

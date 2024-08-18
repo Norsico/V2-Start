@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PRP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "mcmod:ice"
+    },
+    "R": {
+      "item": "mcmod:ice"
+    }
+  },
+  "result": {
+    "id": "mcmod:cheese",
+    "count": 1
+  }
+}

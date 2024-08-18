@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "mcmod:gz"
+    }
+  },
+  "result": {
+    "id": "mcmod:tc",
+    "count": 1
+  }
+}

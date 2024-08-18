@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "mcmod:tc"
+    }
+  },
+  "result": {
+    "id": "mcmod:t",
+    "count": 1
+  }
+}

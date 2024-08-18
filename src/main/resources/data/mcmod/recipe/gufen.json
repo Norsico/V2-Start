@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "mcmod:tc2"
+    }
+  },
+  "result": {
+    "id": "minecraft:bone_meal",
+    "count": 1
+  }
+}
