@@ -23,6 +23,6 @@ public class ModENUSlanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.DAME,"法老");
         translationBuilder.add(ModItems.SNAKE,"九头蛇");
         translationBuilder.add(ModItems.TC2,"牛麦.zip");
-        translationBuilder.add(ModItems.TD,"铁蛋");
+//        translationBuilder.add(ModItems.TD,"铁蛋");
     }
 }

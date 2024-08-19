@@ -2,19 +2,14 @@ package com.norcoo.mcmod.item;
 
 import com.norcoo.mcmod.MCmod;
 
-import com.norcoo.mcmod.entity.TDProjectileEntity;
 import com.norcoo.mcmod.material.IceMaterial;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
+
 import net.minecraft.item.SwordItem;
-import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.TypedActionResult;
-import net.minecraft.world.World;
 
 public class ModItems {
     public static final Item ICE = registerItems("ice",
@@ -42,7 +37,6 @@ public class ModItems {
 
     public static final Item TC2 = registerItems("tc2",
             new Item(new Item.Settings()));
-
 
 
     private static Item registerItems(String id, Item item){
