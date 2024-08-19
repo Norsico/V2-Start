@@ -28,7 +28,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DAME, Models.GENERATED);
         itemModelGenerator.register(ModItems.SNAKE, Models.GENERATED);
         itemModelGenerator.register(ModItems.TC2, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.TD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.iron_egg, Models.GENERATED);
 
     }
 }

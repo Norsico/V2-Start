@@ -38,6 +38,9 @@ public class ModItems {
     public static final Item TC2 = registerItems("tc2",
             new Item(new Item.Settings()));
 
+    public static final Item iron_egg = registerItems("iron_egg",
+            new Item(new Item.Settings()));
+
 
     private static Item registerItems(String id, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(MCmod.MOD_ID,id),item);

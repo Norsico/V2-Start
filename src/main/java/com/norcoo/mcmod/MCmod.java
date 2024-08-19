@@ -23,11 +23,8 @@ public class MCmod implements ModInitializer {
 		ModItemGroups.registerModItemGroups();
 		TianCaiEvent.register();
 		IronEgg.register();
-
 		// 注册实体渲染器
 		EntityRendererRegistry.register(BaseThrowEntityType.iron_egg, FlyingItemEntityRenderer::new);
-
 		BaseThrowEntityType.registerModEntities(); // 确保在这里调用
-
 	}
 }
