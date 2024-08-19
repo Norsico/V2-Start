@@ -52,7 +52,7 @@ public class BaseThrownItemEntity extends ThrownItemEntity {
                 BlockState blockState = this.getWorld().getBlockState(blockPos);
                 // 生成周围一圈的粒子效果
                 double radius = 3.5; // 固定半径，生成周围的粒子
-                int particleCount = 200; // 固定粒子数量
+                int particleCount = 300; // 固定粒子数量
                 for (int j = 0; j < particleCount; j++) {
                     double angle = Math.random() * 2 * Math.PI;
                     double xOffset = radius * Math.cos(angle);
