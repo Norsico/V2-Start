@@ -19,13 +19,13 @@ public class MCmod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
-		ModItems.registerModItems();
-		ModItemGroups.registerModItemGroups();
-		TianCaiEvent.register();
-		IronEgg.register();
-		// 注册实体
-		BaseThrowEntityType.registerModEntities(); // 确保在这里调用
-		EntityRendererRegistry.register(BaseThrowEntityType.iron_egg, FlyingItemEntityRenderer::new);
+//		ModItems.registerModItems();
+//		ModItemGroups.registerModItemGroups();
+//		TianCaiEvent.register();
+//		IronEgg.register();
+//		// 注册实体
+//		BaseThrowEntityType.registerModEntities(); // 确保在这里调用
+//		EntityRendererRegistry.register(BaseThrowEntityType.iron_egg, FlyingItemEntityRenderer::new);
 
 	}
 }
